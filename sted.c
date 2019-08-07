@@ -75,7 +75,6 @@ void editorProcessKeypress() {
 int main() {
     enableRawMode();
 
-    char c;
     while (1) {
         editorRefreshScreen();
         editorProcessKeypress();
